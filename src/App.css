@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#form-div {
+  display: flex;
+  flex-direction: column;
+  width: 730px;
+  height: auto;
+  border-radius: 15px;
+  background: #fefefe;
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+}
+#logo-mode-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.25rem;
+}
+#logo-mode-div h2 {
+  color: #222731;
+  font-family: "Space Mono";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#search-bar {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 4.3125rem;
+  border-radius: 0.9375rem;
+  background: #fefefe;
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+  margin-bottom: 1.5rem;
+  border: none;
+}
+#search-bar input {
+  width: 100%;
+  padding-left: 73px;
+  color: #222731;
+  font-family: "Space Mono";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5625rem; /* 138.889% */
+}
+.search-svg {
+  position: absolute;
+  top: 35%;
+  left: 4%;
+  z-index: 1;
+}
+#search-bar input::placeholder {
+  position: absolute;
+  left: 10%;
+  top: 31%;
+  color: #4b6a9b;
+  font-family: "Space Mono";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5625rem;
+}
+.seach-button {
+  position: absolute;
+  width: 6.625rem;
+  height: 3.125rem;
+  top: 15%;
+  left: 85%;
+  border-radius: 0.625rem;
+  background: #0079ff;
+  color: #fff;
+  font-family: "Space Mono";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  z-index: 1;
+}
+.seach-button:hover {
+  cursor: pointer;
+  border-radius: 0.625rem;
+  background: #60abff;
+}
+.dark-mode-logo {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+
+#user-info {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.bitmap-pic img {
+  width: 7.3125rem;
+  height: 7.3125rem;
+  border-radius: 50%;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  justify-content: space-between;
+}
+.name-date-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.bio-div {
+  display: flex;
+  justify-content: start;
+  width: 90%;
+}
+.bio-div p {
+  color: #4b6a9b;
+  font-family: "Space Mono";
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5625rem; /* 166.667% */
+}
+.name-nickname-span h2 {
+  color: #2b3442;
+  font-family: "Space Mono";
+  font-size: 1.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.name-nickname-span p {
+  color: #0079ff;
+  font-family: "Space Mono";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#joined-date p {
+  color: #697c9a;
+  text-align: right;
+  font-family: "Space Mono";
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#personal-stats {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 2.31rem;
+}
+#personal-stats span {
+  color: #4b6a9b;
+  font-family: "Space Mono";
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#personal-stats p {
+  color: #2b3442;
+  font-family: "Space Mono";
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+#links {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  grid: repeat(2, 1fr) / auto-flow;
+  gap: 2rem;
+  max-width: 30rem;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+#links p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#links svg {
+  width: 20px;
+  height: 20px;
+}
+
+#links p svg {
+  margin-right: 0.5rem;
+}
+
+#links {
+  color: #4b6a9b;
+  font-family: "Space Mono";
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+a {
+  color: #0079ff;
+  z-index: 1;
+}
