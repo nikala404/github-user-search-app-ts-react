@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function SearchBar({ inputedName, clicked }: any) {
-  const [inputValue, setInputValue] = useState<string | number>("");
+  const [inputValue, setInputValue] = useState<string>("");
   const handleOnChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setInputValue(event.target.value);
     inputedName(event.target.value);
